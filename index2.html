@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Camilla's Profolio</title>
+<link rel"stylesheet" href="style.css">
+</head>
+<div  id="container";>
+<body>
+    <h1 style="background-color: pink;"> Cherry Blossom</h1>
+    <!--A br element breaks text to the next line-->
+<p>Hello World! <br> HTML 2</p>
+<!--This is a comment-->
+<button style="background-color: pink;"><a href="Index.html">Click me</a></button>
+<!--Div's can become containers-->
+<div>
+<img src="cherryblossom.jpg" alt="Picture of cherryblossom">
+</div>
+<table>
+    <tr>
+        <th class="test">Foods</th>
+        <th id="demo">Sports</th>
+        <th>Drinks</th>
+    </tr>
+
+    <tr>
+        <td class="test">BlueBerries</td>
+         <td>Soccer</td>
+          <td>Soccer</td>
+    </tr>
+
+    <tr>
+        <td class="test">Banana</td>
+        <td>Football</td>
+        <td>Juice</td>
+    </tr>
+</table>
+
+<audio controls>
+<source src="cherry.mp3" typle="audio/mpeg">
+</audio>
+
+
+<footer style="background-color: pink;">
+    <p>Credit to Camilla.H</p>
+</footer>
+
+</div>
+
+<div id="Square"><img src="phone.png.png" id="call"></div>
+</body>
+
+<style>
+    #call{
+        background-image:url("dino.gif");
+        background-repeat: no-repeat;
+        background-position: 120px;
+        background-size: 120px 280px;
+
+     
+    }
+    #Square{
+       position: relative;
+       animation-name: myAnimation;
+       animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes myAnimation {
+    0% {left: 0px; top:0px;}
+    100% {left:0px;top:200px;}
+    }
+
+    @keyframes closePhone{
+        100% {top:0px;}
+    }
+
+    body { background-image: url(giphy.gif);}
+    table {
+        margin-left: 40%;
+        margin-bottom: 30px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        
+    }
+    th,td {
+        background-color: lightpink
+    }
+    .test{
+        background: rgb(239, 127, 127);
+    }
+    #demo {
+        background-color: rgb(240, 179, 240);
+    }
+    #container {
+        text-align: center;
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+
+</style>
+
+</html>
